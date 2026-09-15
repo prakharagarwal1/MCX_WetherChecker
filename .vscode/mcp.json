@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"Blog-MCP-Server": {
+			"type": "http",
+			"url": "http://localhost:5001/mcp"
+		}
+	},
+	"inputs": []
+}
