@@ -1,8 +1,10 @@
 {
 	"servers": {
 		"Blog-MCP-Server": {
-			"type": "http",
-			"url": "http://localhost:5001/mcp"
+			"type": "stdio",
+			"command": "node",
+			"args": ["index.js"],
+			"cwd": "${workspaceFolder}"
 		}
 	},
 	"inputs": []
